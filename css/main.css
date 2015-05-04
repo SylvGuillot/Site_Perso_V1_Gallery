@@ -341,9 +341,32 @@ em {
     color: #f2e7c4;
     font-size: 18px;
     font-family: opificio_neueregular;
-	margin-bottom: 70px;
 }
 
+#réalisations p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: opificio_neueregular;
+}
+
+#réalisations a {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: opificio_neueregular;
+}
+
+#réalisations .col-md-7{
+margin-top: 50px;
+padding-left: 200px;
+}
+
+#réalisations .col-md-5{
+margin-top: 50px;
+padding-right: 100px;
+padding-top: 10px;
+}
 
 h1 {
     text-align: center;
@@ -429,6 +452,66 @@ h4 {
     text-align: center;
 }
 
+.imageIslandTravel {
+    width:  100%;
+    height: auto;
+    margin: auto;
+            filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+        -moz-filter: grayscale(1);
+        -o-filter: grayscale(1);
+        -ms-filter: grayscale(1);
+}
+
+.imagesite2 {
+    width:  100%;
+    height: auto;
+    margin: auto;
+            filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+        -moz-filter: grayscale(1);
+        -o-filter: grayscale(1);
+        -ms-filter: grayscale(1);
+}
+
+#IslandTravel {
+    margin-top: 80px;
+}
+
+#Site2 {
+    margin-top: 80px;
+}
+
+#Portrait {
+    margin-top: 100px;
+}
+
+#Typo {
+    margin-top: 80px;
+}
+
+.imagePortrait {
+    width:  100%;
+    height: auto;
+    margin: auto;
+            filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+        -moz-filter: grayscale(1);
+        -o-filter: grayscale(1);
+        -ms-filter: grayscale(1);
+}
+
+.imageTypo {
+    width:  100%;
+    background-color: white;
+    height: auto;
+    margin: auto;
+            filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+        -moz-filter: grayscale(0);
+        -o-filter: grayscale(0);
+        -ms-filter: grayscale(0);
+}
 
 #moi h2 {
     text-align: center;
@@ -793,4 +876,18 @@ span {
 
 #social {
     margin-top: 20px;
+}
+
+
+@media screen and (max-width: 1024px) {
+#réalisations .col-md-7{
+margin-top: 50px;
+padding-left: 0px;
+}
+
+#réalisations .col-md-5{
+margin-top: 50px;
+padding-right: 0px;
+padding-top: 0px;
+}
 }

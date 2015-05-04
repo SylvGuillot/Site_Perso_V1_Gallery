@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="300px" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
+<circle fill="none" stroke="#F2E7C4" stroke-width="6" stroke-miterlimit="10" cx="146.77" cy="150.352" r="96.862"/>
+<circle fill="none" stroke="#F2E7C4" stroke-miterlimit="10" cx="146.77" cy="150.813" r="90.362"/>
+<rect x="330" y="19" fill-rule="evenodd" clip-rule="evenodd" fill="#0378A6" width="66" height="34"/>
+<rect x="405" y="60" fill-rule="evenodd" clip-rule="evenodd" fill="#128BA6" width="66" height="34"/>
+<rect x="483" y="109" fill-rule="evenodd" clip-rule="evenodd" fill="#F2BA52" width="66" height="34"/>
+<rect x="559" y="158" fill-rule="evenodd" clip-rule="evenodd" fill="#D9863D" width="66" height="34"/>
+<rect x="405" y="207" fill-rule="evenodd" clip-rule="evenodd" fill="#F22E2E" width="66" height="34"/>
+<rect x="330" y="207" fill-rule="evenodd" clip-rule="evenodd" fill="#BF2A36" width="66" height="34"/>
+<rect x="483" y="60" fill-rule="evenodd" clip-rule="evenodd" fill="#0DB3D9" width="66" height="34"/>
+<rect x="405" y="109" fill-rule="evenodd" clip-rule="evenodd" fill="#F2B077" width="66" height="34"/>
+<rect x="330" y="158" fill-rule="evenodd" clip-rule="evenodd" fill="#F2762E" width="66" height="34"/>
+<rect x="559" y="207" fill-rule="evenodd" clip-rule="evenodd" fill="#F24130" width="66" height="34"/>
+<rect x="559" y="60" fill-rule="evenodd" clip-rule="evenodd" fill="#66B8D9" width="66" height="34"/>
+<rect x="559" y="109" fill-rule="evenodd" clip-rule="evenodd" fill="#F2E7C4" width="66" height="34"/>
+<rect x="483" y="158" fill-rule="evenodd" clip-rule="evenodd" fill="#F2911B" width="66" height="34"/>
+<rect x="405" y="19" fill-rule="evenodd" clip-rule="evenodd" fill="#F27C38" width="66" height="34"/>
+<rect x="483" y="207" fill-rule="evenodd" clip-rule="evenodd" fill="#D93829" width="66" height="34"/>
+<g>
+	<path fill="none" stroke="#F27C38" stroke-width="4" stroke-miterlimit="10" d="M217,174.112c0,8.489-6.374,14.888-14.236,14.888
+		H90.236C82.374,189,76,182.602,76,174.112v-50.24C76,115.383,82.374,109,90.236,109h112.527c7.862,0,14.236,6.383,14.236,14.872
+		V174.112z"/>
+	<rect x="137" y="189" fill-rule="evenodd" clip-rule="evenodd" fill="#F27C38" width="21" height="20"/>
+	<line fill="none" stroke="#F27C38" stroke-width="2" stroke-miterlimit="10" x1="119" y1="210" x2="174" y2="210"/>
+</g>
+<rect x="480" y="20" fill-rule="evenodd" clip-rule="evenodd" fill="#232121" width="63" height="32"/>
+<path fill="none" stroke="#232121" stroke-miterlimit="10" d="M146.77,192.314"/>
+<rect x="76" y="117.098" fill="none" width="141" height="87.902"/>
+<text transform="matrix(1 0 0 1 99.2134 134.5977)"><tspan x="0" y="0" fill="#F2E7C4" font-family="'OpificioNeue'" font-size="25">Mon CV</tspan><tspan x="35.695" y="16.8" fill="#F2E7C4" font-family="'OpificioNeue'" font-size="7">Cursus</tspan><tspan x="27.971" y="25.2" fill="#F2E7C4" font-family="'OpificioNeue'" font-size="7">Expérience</tspan><tspan x="32.913" y="33.6" fill="#F2E7C4" font-family="'OpificioNeue'" font-size="7">Passions</tspan><tspan x="22.199" y="42" fill="#F2E7C4" font-family="'OpificioNeue'" font-size="7">Compétences</tspan><tspan x="45.134" y="50.4" fill="#F2E7C4" font-family="'OpificioNeue'" font-size="7">...</tspan></text>
+</svg>
