@@ -1,0 +1,469 @@
+/*début footer*/
+
+div#footer {
+background-color: #D35400;
+width:100%;
+height: 320px;
+/* background-position: center top; */
+background-repeat: no-repeat;
+/* color: white; */
+padding-bottom:10px;
+padding-top:40px;
+margin:auto;
+margin-bottom:0px;
+position:relative;
+border-top:solid 2px #141414;
+}
+
+#contenufooter {
+width: 842px;
+height: 180px;
+margin: auto;
+}
+
+.titre{
+text-align:center;
+font-family: 'Lobster', cursive;
+font-size: 30px;
+margin-top:-20px;
+color: black;
+}
+
+.mail{
+text-align:center;
+padding-right:40px;
+display: block;	 /*transforme les lignes en block pour pouvoir g��rer l'espace entre elles */
+height:32px;
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+margin-top:9px;
+color: white;
+}
+
+.telephone{
+text-align:center;
+padding-right:40px;
+display: block;	 /*transforme les lignes en block pour pouvoir g��rer l'espace entre elles */
+height:32px;
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+margin-top:9px;
+color: white;
+}
+
+.adresse{
+text-align:center;
+padding-right:40px;
+display: block;	 /*transforme les lignes en block pour pouvoir g��rer l'espace entre elles */
+height:32px;
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+margin-top:9px;
+color: white;
+}
+
+.softwave p{
+text-align:center;
+display: block;	 /*transforme les lignes en block pour pouvoir g��rer l'espace entre elles */
+height:32px;
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+margin-top:17px;
+color: white;
+}
+
+.nous p{
+text-align:center;
+display: block;	 /*transforme les lignes en block pour pouvoir g��rer l'espace entre elles */
+height:32px;
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+margin-top:17px;
+color: white;
+}
+
+div#footer .contact {
+width:360px;
+height: 150px;
+float: left;	 /* float left pour mettre  les collones les une �� cot�� des autres */
+padding-left: 30px;
+padding-right: 30px;
+border-right: 2px solid white;
+}
+
+div#footer .nous {
+width:360px;
+height: 150px;
+float: left;
+padding-left: 30px;
+padding-right: 30px;
+
+}
+
+div#footer .nous-suivre {
+width:360px;
+height: 100px;
+margin: auto;
+}
+
+.ftg {
+width: 360px;
+height: 50px;
+margin: auto;
+}
+
+#text {
+font-family: 'Open Sans', sans-serif;
+font-size: 18px;
+font-weight: bold;
+}
+
+#facebook {
+background-image: url("../images/azerty.png");
+background-repeat:no-repeat;
+background-position: center;
+width:50px;
+height: 50px;
+float: left;
+padding-right: 20px;
+padding-left: 20px;
+
+}
+
+#twitter {
+background-image: url("../images/azerty2.png");
+background-repeat:no-repeat;
+background-position: center;
+width:50px;
+height: 50px;
+float: left;
+padding-right: 20px;
+padding-left: 20px;
+}
+
+#google {
+background-image: url("../images/google2.png");
+background-repeat:no-repeat;
+background-position: center;
+width:50px;
+height: 50px;
+float:left;
+padding-right: 20px;
+padding-left: 20px;
+}
+
+#instagram {
+background-image: url("../images/instagram2.png");
+background-repeat:no-repeat;
+background-position: center;
+width:50px;
+height: 50px;
+float:left;
+padding-left: 20px;
+}
+
+#facebook:hover {
+background-image: url("../images/azerty1.png");
+background-repeat:no-repeat;
+background-position: center;
+width:50px;
+height: 50px;
+float: left;
+padding-right: 20px;
+padding-left: 20px;
+}
+
+#twitter:hover {
+background-image: url("../images/azerty3.png");
+background-repeat:no-repeat;
+background-position: center;
+width:50px;
+height: 50px;
+float: left;
+padding-right: 20px;
+padding-left: 20px;
+}
+
+#google:hover {
+background-image: url("../images/azerty4.png");
+background-repeat:no-repeat;
+background-position: center;
+width:50px;
+height: 50px;
+float:left;
+padding-right: 20px;
+padding-left: 20px;
+}
+
+#instagram:hover {
+background-image: url("../images/azerty5.png");
+background-repeat:no-repeat;
+background-position: center;
+width:50px;
+height: 50px;
+float:left;
+padding-left: 20px;
+}
+
+.softwave p {
+font-family: 'Open Sans', sans-serif;
+font-size: 11px;
+color: #252525;
+font-weight: bolder;
+}
+
+
+
+
+
+@media screen and (max-width: 72em) {
+div#footer {
+background-color: #D35400;
+width:100%;
+height: 645px;
+/* background-position: center top; */
+background-repeat: no-repeat;
+/* color: white; */
+padding-bottom:10px;
+padding-top:40px;
+margin:auto;
+margin-bottom:0px;
+position:relative;  	/*relatif pour affecter le logo, le logo sera placer en fonction du div et non de la page car il est en absolut*/
+}
+
+#contenufooter {
+width: 360px;
+height: 500px;
+margin: auto;
+}
+
+div#footer .contact {
+width:310px;
+margin:auto;
+border-right: transparent;
+margin-top: 50px;
+}
+
+div#footer .nous {
+width:310px;
+margin:auto;
+margin-top: 80px;
+}
+
+div#footer .nous-suivre {
+width:330px;
+height: 100px;
+margin: auto;
+}
+
+.ftg {
+width: 330px;
+height: 50px;
+margin: auto;
+}
+
+#facebook {
+background-image: url("../images/azerty.png");
+background-repeat:no-repeat;
+background-position: center;
+width:50px;
+height: 50px;
+padding-left: 115px;
+
+}
+
+#twitter {
+background-image: url("../images/azerty2.png");
+background-repeat:no-repeat;
+background-position: center;
+width:50px;
+height: 50px;
+padding-right: 40px;
+padding-left: 40px;
+
+}
+
+#google {
+background-image: url("../images/google2.png");
+background-repeat:no-repeat;
+background-position: center;
+width:50px;
+height: 50px;
+padding-left: 115px;
+margin-top: 15px;
+}
+
+#instagram {
+background-image: url("../images/instagram2.png");
+background-repeat:no-repeat;
+background-position: center;
+width:50px;
+height: 50px;
+padding-right: 40px;
+padding-left: 40px;
+margin-top: 15px;
+}
+
+#facebook:hover {
+background-image: url("../images/azerty1.png");
+background-repeat:no-repeat;
+background-position: center;
+width:50px;
+height: 50px;
+padding-left: 115px;
+
+}
+
+#twitter:hover {
+background-image: url("../images/azerty3.png");
+background-repeat:no-repeat;
+background-position: center;
+width:50px;
+height: 50px;
+padding-right: 40px;
+padding-left: 40px;
+
+}
+
+#google:hover {
+background-image: url("../images/azerty4.png");
+background-repeat:no-repeat;
+background-position: center;
+width:50px;
+height: 50px;
+padding-left: 115px;
+margin-top: 15px;
+}
+
+#instagram:hover {
+background-image: url("../images/azerty5.png");
+background-repeat:no-repeat;
+background-position: center;
+width:50px;
+height: 50px;
+padding-right: 40px;
+padding-left: 40px;
+margin-top: 15px;
+}
+
+}
+
+@media screen and (max-width: 54em) {
+div#footer {
+background-color: #D35400;
+width:100%;
+height: 690px;
+background-repeat: no-repeat;
+padding-bottom:10px;
+padding-top:40px;
+margin:auto;
+margin-bottom:0px;
+position:relative;  	
+}
+
+#contenufooter {
+width: 300px;
+height: 550px;
+margin: auto;
+}
+
+div#footer .contact {
+width:250px;
+margin:auto;
+border-right: transparent;
+margin-top: 50px;
+}
+
+div#footer .nous {
+width:240px;
+margin:auto;
+margin-top: 80px;
+}
+
+div#footer .nous-suivre {
+width:240px;
+height: 100px;
+margin: auto;
+}
+
+.ftg {
+width: 250px;
+height: 50px;
+margin: auto;
+}
+
+#facebook {
+background-image: url("../images/azerty.png");
+background-repeat:no-repeat;
+background-position: center;
+width:50px;
+height: 50px;
+padding-left: 50px;
+
+}
+
+#twitter {
+background-image: url("../images/azerty2.png");
+background-repeat:no-repeat;
+background-position: center;
+width:50px;
+height: 50px;
+}
+
+#google {
+background-image: url("../images/google2.png");
+background-repeat:no-repeat;
+background-position: center;
+width:50px;
+height: 50px;
+padding-left: 50px;
+margin-top: 15px;
+}
+
+#instagram {
+background-image: url("../images/instagram2.png");
+background-repeat:no-repeat;
+background-position: center;
+width:50px;
+height: 50px;
+margin-top: 15px;
+}
+
+#facebook:hover {
+background-image: url("../images/azerty1.png");
+background-repeat:no-repeat;
+background-position: center;
+width:50px;
+height: 50px;
+padding-left: 50px;
+
+}
+
+#twitter:hover {
+background-image: url("../images/azerty3.png");
+background-repeat:no-repeat;
+background-position: center;
+width:50px;
+height: 50px;
+}
+
+#google:hover {
+background-image: url("../images/azerty4.png");
+background-repeat:no-repeat;
+background-position: center;
+width:50px;
+height: 50px;
+padding-left: 50px;
+margin-top: 15px;
+}
+
+#instagram:hover {
+background-image: url("../images/azerty5.png");
+background-repeat:no-repeat;
+background-position: center;
+width:50px;
+height: 50px;
+margin-top: 15px;
+}
+
+}

@@ -1,0 +1,349 @@
+@font-face {
+	font-family: 'icomoon';
+	src: url('../fonts/icomoon.eot');
+	src: url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Windows Chrome ugly fix http://stackoverflow.com/questions/13674808/chrome-svg-font-rendering-breaks-layout/14345363#14345363 */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family: 'icomoon';
+		src: url('../fonts/icomoon.svg#icomoon') format('svg');
+	};
+}
+
+header{
+height:130px;
+width:100%;
+top:0px;
+}
+
+.search{
+position:absolute;
+height:45px;
+width:100%;
+background:#D35400;
+opacity:0.75;
+top:0px;
+}
+
+.logo{
+position:relative;
+z-index:1; /*faire passer le logo en premier plan*/
+margin-top:0px;
+margin:auto;
+height:150px;
+width:122px;
+background:url(../images/Logo1.png);
+}
+
+.icon-menu {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-menu:before {
+	content: "\f0c9";
+}
+
+.containermenu{
+width:60%;
+max-width:2200px;
+height:55px;
+background: #D35400;
+margin:auto;
+top:150px;
+}
+
+.nav ul {
+	max-width: 1240px;
+	padding:0 0px;
+	margin: auto; /*régler horizontalement le menu*/
+	list-style: none;
+	font-size: 1.8em;
+	font-weight: 300;
+}
+
+.nav a {
+	padding-top:8px;
+	display: block;
+	color: rgba(249, 249, 249, .9);
+	text-decoration: none;
+	-webkit-transition: color .5s, background .5s, height .5s;
+	-moz-transition: color .5s, background .5s, height .5s;
+	-o-transition: color .5s, background .5s, height .5s;
+	-ms-transition: color .5s, background .5s, height .5s;
+	transition: color .5s, background .5s, height .5s;
+}
+
+.nav span{
+font-family: 'Open Sans', sans-serif;
+}
+
+a, button {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* Animation texte lors du hover */
+
+.no-touch .nav ul:hover a {/*non touché*/
+	color: rgba(220, 220, 220, 0.5);
+	text-shadow:0px 0px 0px rgba(200, 200, 200, .5);/*annule l'effet d'ombre sur le texte*/
+}
+
+.no-touch .nav ul:hover a:hover {/*touché*/
+	color: rgba(245, 245, 245, 1);
+}
+
+#azerty {
+padding-top: 8px;
+color:white;
+}
+
+/* Couleurs des rubriques du menu */
+
+.nav li:nth-child(6n+1) {
+background: #D35400;
+border-bottom: 4px solid #F78216;
+height:51px;
+box-shadow:0px 0px 0px transparent;
+}
+
+.nav li:nth-child(6n+2) {
+background: #D35400;
+}
+
+.nav li:nth-child(6n+3) {
+background: #D35400;
+}
+
+.nav li:nth-child(6n+4) {
+background: #D35400;
+}
+
+
+/* Screen > 800px */
+@media (min-width: 54em) {
+
+	/* Caratéristique de base Menu grande résolution */
+	.nav li {
+		float: left;
+		width: 25%;
+		text-align: center;
+		text-shadow:1px 1px 0px rgba(200, 200, 200, .5);
+		-webkit-transition: border .5s;
+		-moz-transition: border .5s;
+		-o-transition: border .5s;
+		-ms-transition: border .5s;
+		transition: border .5s;
+	}
+
+	.nav a {
+		display: block;
+		width: auto;
+	}
+
+	/* Couleur des bordures des rubriques */
+	.no-touch .nav li:nth-child(6n+2) a:hover,
+	.no-touch .nav li:nth-child(6n+2) a:active,
+	.no-touch .nav li:nth-child(6n+2) a:focus {
+		border-bottom: 4px solid rgb(230, 170, 84);
+		/*rgba(7,129,158,1)*/
+	}
+
+	.no-touch .nav li:nth-child(6n+3) a:hover,
+	.no-touch .nav li:nth-child(6n+3) a:active,
+	.no-touch .nav li:nth-child(6n+3) a:focus {
+		border-bottom: 4px solid rgb(230, 170, 84);
+		/*rgba(7,129,158,1)*/
+	}
+
+	.no-touch .nav li:nth-child(6n+4) a:hover,
+	.no-touch .nav li:nth-child(6n+4) a:active,
+	.no-touch .nav li:nth-child(6n+4) a:focus {
+		border-bottom: 4px solid rgb(230, 170, 84);
+		/*rgba(7,129,158,1)*/
+	}
+
+	.nav a {
+		height: 1.6em; /*largeur du menu*/
+	}
+
+	.no-touch .nav a:hover {
+		height: 1.6em; /*débattement de l'animation*/
+		/*box-shadow:0px 4px 3px #383838; ombre en bas de la boite lors de l'animation*/
+	}
+	
+	/* le texte suis l'animation de débattement*/
+	.no-touch .nav a:hover {
+		height:1.5em; /*débattement boite uniquement -> créer un espace boite texte*/
+		padding-top:50px;
+		transition:height 0.73s, padding-top 0.73s, border-bottom 0.3s, box-shadow 1s;
+	}
+
+	/* durée de l'animation dedébattement */
+	.no-touch .nav a:hover i,
+	.no-touch .nav a:active i,
+	.no-touch .nav a:focus i {		
+		box-shadow: 0 0 0 0 rgba(255,255,255,0.2);
+		-webkit-transition: box-shadow .5s ease-in-out;
+		-moz-transition: box-shadow .5s ease-in-out;
+		-o-transition: box-shadow .5s ease-in-out;
+		-ms-transition: box-shadow .5s ease-in-out;
+		transition: box-shadow .5s ease-in-out;
+	}
+		
+}
+
+@media (min-width:1000px) and (max-width: 72em) {
+
+	/* réadapte la taille de la police lorsque le fenetre réduit en largeur*/
+	.nav ul {
+		font-size: 1.6em;
+	}
+	.nav a {
+		height: 1.7em; /*largeur du menu*/
+	}
+}
+
+@media (min-width: 54em) and (max-width: 1000px) {
+
+	/* réadapte la taille de la police lorsque le fenetre réduit en largeur*/
+	.nav ul {
+		padding-top:5px;
+		font-size: 1.4em;
+	}
+	
+	.nav li:nth-child(6n+1) {
+background: #D35400;
+border-bottom: 4px solid #F78216;
+height:46px;
+box-shadow:0px 0px 0px transparent;
+}
+	.nav a {
+		height: 1.8em; /*largeur du menu*/
+	}
+}
+
+/* couleur des hovers 2eme stade responsive */
+
+@media (max-width: 54em) {		
+	
+	/* Couleur des hover des rubriques au 1er stade responsive */
+	.no-touch .nav ul li:nth-child(6n+1) a:hover,
+	.no-touch .nav ul li:nth-child(6n+1) a:active,
+	.no-touch .nav ul li:nth-child(6n+1) a:focus {
+		background: rgb(227, 119, 20);
+	}
+
+	.no-touch .nav li:nth-child(6n+2) a:hover,
+	.no-touch .nav li:nth-child(6n+2) a:active,
+	.no-touch .nav li:nth-child(6n+2) a:focus {
+		background: rgb(227, 119, 20);
+	}
+
+	.no-touch .nav li:nth-child(6n+3) a:hover,
+	.no-touch .nav li:nth-child(6n+3) a:active,
+	.no-touch .nav li:nth-child(6n+3) a:focus {
+		background:rgb(227, 119, 20);
+	}
+
+	.no-touch .nav li:nth-child(6n+4) a:hover,
+	.no-touch .nav li:nth-child(6n+4) a:active,
+	.no-touch .nav li:nth-child(6n+4) a:focus {
+		background: rgb(227, 119, 20);
+	}
+
+	.nav ul li {
+		-webkit-transition: background 0.5s;
+		-moz-transition: background 0.5s;
+		-o-transition: background 0.5s;
+		-ms-transition: background 0.5s;
+		transition: background 0.5s;
+	}	
+
+}
+
+
+/* Menu 2eme stade responsive */
+.nav .navtoogle{
+	display: none;	
+	width: 100%;
+	padding: 0.5em 0.5em 0.5em;
+	font-family: 'Lobster', cursive;
+	font-weight: normal;
+	text-align: left;
+	text-shadow:1.5px 1.5px 1px rgba(200, 200, 200, .5);
+	color: rgb(255, 255, 255);
+	font-size: 1.5em;
+	background-color: rgba(211,84,0,0.7);
+	border: none;
+	cursor: pointer;
+}
+
+.navtoogle i{
+	z-index:-1;
+}
+
+@media (max-width: 54em) {
+
+				.nav li:nth-child(6n+1) {
+border-bottom: 0px solid rgb(227, 119, 20);
+border-left: 8px solid #F78216;
+height:65px;
+box-shadow:0px 0px 0px transparent;
+}
+	#azerty{
+	margin-left:11px;
+	padding-top:12px;
+	}
+
+	.nav .navtoogle{
+		margin: 0;
+		display: block;
+	}
+	
+	.no-js .nav ul {
+		max-height: 30em;
+		overflow: hidden;
+	}
+	
+	.js .nav ul {
+		max-height: 0em;
+		overflow: hidden;
+	}
+
+	.js .nav .active + ul {		
+		max-height: 30em;
+		overflow: hidden;
+		-webkit-transition: max-height .4s;
+		-moz-transition: max-height .4s;
+		-o-transition: max-height .4s;
+		-ms-transition: max-height .4s;
+		transition: max-height .4s;
+	}
+	
+	.nav li span {
+		display: inline-block;
+		height: 100%;
+	}
+
+	.nav a {
+		padding: 0.5em;		
+	}
+	
+	.touch .nav a {
+		padding: 0.8em;
+	}
+}
+

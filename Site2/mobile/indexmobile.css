@@ -1,0 +1,126 @@
+body.perso .fp-controlArrow.fp-prev, body.perso .fp-controlArrow.fp-next {
+background-color: #dfaf2c;
+border-color: white transparent white transparent;
+}
+
+body.perso #fp-nav li .active span, body.perso .fp-slidesNav .active span {
+
+}
+
+body.perso .fp-slidesNav {
+	margin-left: 0 !important; /* pour régler le pb de positionnement du menu sous chrome */ 
+}
+
+.section h1, .section h2 {
+	text-align: center;
+}
+
+.slide p {
+	margin : 0 50px;
+}
+
+header#header {
+	position: fixed;
+	z-index: 10;
+	background-color: #dfaf2c;
+}
+
+header#header ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 80px;
+}
+
+header#header ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 11px;
+	display: block;
+	margin: 0 auto;
+	letter-spacing: 2px;
+	color: #fff;
+	width: 100%;
+}
+
+header#header ul li a img {
+	display: block;
+	margin: 0 auto;
+}
+
+header#header ul li.active a {
+	color: black;
+	font-weight: bold;
+}
+
+body.vertical #fullpage article {
+	margin-left: 200px;
+}
+
+body.vertical #fullpage article {
+	position: relative;
+}
+
+.hi-icon-wrap {
+	padding-top: 18px;
+	width: 100%;
+	z-index: 99999;
+	height: 100%;
+}
+
+.hi-icon {
+	cursor: pointer;
+	position: relative;
+	text-align: center;
+	width: 80px;
+	z-index: 1;
+}
+
+/* Menu horizontal */
+body.horizontal header#header{
+	width: 100%;
+	height: 90px;
+	top:0px;
+	padding-left: 60px;
+}
+
+body.horizontal header#header ul {
+	width: 100%;
+	padding: 20px 10px 10px 20px;
+}	
+
+body.horizontal header#header ul li {
+	text-align: center;
+	width: 10%;
+	position:relative;
+	float:left;
+}
+
+body.horizontal #fullpage article {
+	/*todo*/
+}
+
+/* Menu vertical */
+body.vertical header#header {
+	/*todo*/
+}
+
+body.vertical .hi-icon-wrap {
+	/*todo*/
+}
+
+#home{
+width: 100%;
+height: 100%;
+background-image:url(../img/img/accueil3.png);
+background-repeat:no-repeat;
+background-position: top;
+background-size: 100%;
+/* background-color: #edede5; */
+}
+
+.section{
+background-color:#edede5;
+}
+
+

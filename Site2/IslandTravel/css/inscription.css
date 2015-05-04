@@ -1,0 +1,20 @@
+body{
+background:#252525;
+  font-family: 'Open Sans', sans-serif;
+  margin:0;
+}
+
+.toppage{
+width:100%;
+max-width:2200px;
+height:740px;
+margin:auto;
+background:url(../images/imagepresentationinscription1.jpg);
+background-repeat:none;
+position:relative;
+z-index: 1;
+border-bottom:solid 2px #141414;
+}
+
+ 
+

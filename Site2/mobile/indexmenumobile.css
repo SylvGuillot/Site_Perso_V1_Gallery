@@ -1,0 +1,605 @@
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('fonts/OpenSans-Bold.ttf') format('ttf'); 
+	font-family: 'OpenSans-Light';
+    src: url('fonts/OpenSans-Light.ttf') format('ttf');    
+	font-family: 'OpenSans-Italic';
+    src: url('fonts/OpenSans-Italic.ttf') format('ttf');   
+	font-family: 'OpenSans-Regular';
+    src: url('fonts/OpenSans-Regular.ttf') format('ttf');   
+	font-family: 'Opificio_neue-regular';
+    src: url('fonts/Opificio_neue-regular.ttf') format('ttf');
+	font-family: 'bpicons';
+    src: url('fonts/bpicons/bpicons.ttf') format('ttf'),
+    src: url('fonts/bpicons/bpicons.eot') format('eot'),
+    src: url('fonts/bpicons/bpicons.woff') format('woff');
+}
+
+
+a {
+	color: #4e4a46;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover, a:focus {
+	color: #c94e50;
+	outline: none;
+}
+
+button:focus {
+	outline: none;
+}
+
+section {
+	text-align: center;
+}
+
+#accueil{
+width: 100%;
+height: 100%;
+background-image:url(../img/img/fond_index2.png);
+background-repeat:no-repeat;
+background-position: center;
+background-size: 100%;
+}
+
+
+
+/*début à services*/
+#services{
+width: 100%;
+height: 100%;
+background-color: #edede5;
+text-align: center;
+}
+
+#services h1{
+	width: 500px;
+	text-align: center;
+	font-size: 48px;
+	margin:auto;
+	padding-top: 50px;
+	font-family: 'Opificio Neue';
+	color: #094f5d;
+}
+
+#webdesign{
+float: left;
+width: 25%;
+height: 150px;
+margin-top: 70px;
+margin-left: 6.3%;
+color: #094f5d;
+font-family: 'Opificio Neue';
+}
+
+#descriptionwebdesign{
+margin-top: 30px;
+color: #094f5d;
+height: 200px;
+font-family: 'Opificio Neue';
+font-size: 20px;
+background-image: url(../img/img/design_bleu.png);
+background-repeat: no-repeat;
+background-position: center bottom;
+background-size: 18%;
+}
+
+#descriptionwebdesign:hover{
+color: #900E1C;
+background-image: url(../img/img/design_rouge.png);
+}
+
+#intégration{
+float: left;
+width: 25%;
+height: 150px;
+margin-top: 70px;
+margin-left: 6.3%;
+color: #094f5d;
+font-family: 'Opificio Neue';
+}
+
+#descriptionintégration{
+margin-top: 30px;
+color: #094f5d;
+height: 220px;
+font-family: 'Opificio Neue';
+font-size: 20px;
+background-image: url(../img/img/intégration_bleu.png);
+background-repeat: no-repeat;
+background-position: center bottom;
+background-size: 24%;
+}
+
+#descriptionintégration:hover{
+color: #900E1C;
+background-image: url(../img/img/intégration_rouge.png);
+}
+
+
+#descriptiondev{
+margin-top: 20px;
+height: 220px;
+color: #094f5d;
+font-family: 'Opificio Neue';
+font-size: 20px;
+background-image: url(../img/img/dev_bleu.png);
+background-repeat: no-repeat;
+background-position: center bottom;
+}
+
+#descriptiondev:hover{
+color: #900E1C;
+background-image: url(../img/img/dev_rouge.png);
+}
+
+#dev{
+float: left;
+width: 25%;
+height: 150px;
+margin-top: 70px;
+margin-left: 6.3%;
+color: #094f5d;
+font-family: 'Opificio Neue';
+}
+
+
+/*fin à services*/
+
+
+#realisations{
+width: 100%;
+height: 100%;
+background-color: #094f5d;
+}
+
+#realisationtitre{
+	width: 500px;
+	text-align: center;
+	font-size: 48px;
+	margin:auto;
+	padding-top: 50px;
+	font-family: 'Opificio Neue';
+	color: #edede5;
+}
+
+/*début compétences*/
+
+#competencesdiv{
+width: 100%;
+height: 100%;
+background-color: #094f5d;
+}
+
+#competences{
+	/* background-color:#ecf0f1; */
+	color: #edede5;
+	height: 100%;
+	margin: auto;
+	padding-top: 40px;
+	font-family: 'Opificio Neue';
+}
+
+#competencestitre{
+	width: 500px;
+	text-align: center;
+	font-size: 48px;
+	margin:auto;
+	margin-bottom: 40px;
+	font-family: 'Opificio Neue';
+}
+
+figure {
+  margin: 0 auto;
+  position: relative;
+  float: left;
+  font-size:16px;
+  width: 24%;
+  height: 24%;
+  margin-top: 2%;
+  margin-bottom:2%;
+}
+#tech {
+  font-size:18px;
+  text-align:center;
+  color:#edede5;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top:50%;
+  z-index:2;
+  font-weight: bold;
+}
+#art {
+  font-size:18px;
+  text-align:center;
+  color:#900e1c;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top:50%;
+  z-index:2;
+  font-weight: bolder;
+}
+svg {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: visible;
+}
+circle {
+  fill:rgba(0,0,0,0);
+  stroke-width:31.8309886184;
+  stroke-dasharray: 0,0,0,100;
+  stroke-dashoffset: 25;
+  -webkit-animation: pie1 4s ease both;
+  animation: pie1 6s ease both;
+}
+.pie1 {
+  stroke:#900e1c;
+}
+.pie2 {
+  stroke:#900e1c;
+  -webkit-animation-name: pie2;
+  animation-name: pie2;
+}
+.pie3 {
+  stroke:#900e1c;
+  -webkit-animation-name: pie3;
+  animation-name: pie3;
+}
+.pie4 {
+  stroke:#edede5;
+  -webkit-animation-name: pie4;
+  animation-name: pie4;
+}
+.pie5 {
+  stroke:#edede5;
+  -webkit-animation-name: pie5;
+  animation-name: pie5;
+}
+.pie6 {
+  stroke:#edede5;
+  -webkit-animation-name: pie6;
+  animation-name: pie6;
+}
+.pie7 {
+  stroke:#edede5;
+  -webkit-animation-name: pie7;
+  animation-name: pie7;
+}
+
+
+/* 1st pie is 40% */
+@-webkit-keyframes pie1 {
+  50%,100% {stroke-dasharray: 90,10,0,0;}
+}
+@keyframes pie1 {
+  50%,100% {stroke-dasharray: 90,10,0,0;}
+}
+/* 2nd pie is 30% */
+@-webkit-keyframes pie2 {
+  50%,100% {stroke-dasharray: 80,20,0,0;}
+}
+@keyframes pie2 {
+  50%,100% {stroke-dasharray: 80,20,0,0;}
+}
+/* 3rd pie is 30% */
+@-webkit-keyframes pie3 {
+  50%,100% {stroke-dasharray: 75,25,0,0;}
+}
+@keyframes pie3 {
+  50%,100% {stroke-dasharray: 75,25,0,0;}
+}
+/* 4th pie is 10% */
+@-webkit-keyframes pie4 {
+  50%,100% {stroke-dasharray: 85,15,0,0;}
+}
+@keyframes pie4 {
+  50%,100% {stroke-dasharray: 85,15,0,0;}
+}
+
+@-webkit-keyframes pie5 {
+  50%,100% {stroke-dasharray: 80,20,0,0;}
+}
+@keyframes pie5 {
+  50%,100% {stroke-dasharray: 80,20,0,0;}
+}
+
+@-webkit-keyframes pie6 {
+  50%,100% {stroke-dasharray: 80,20,0,0;}
+}
+@keyframes pie6 {
+  50%,100% {stroke-dasharray: 80,20,0,0;}
+}
+
+@-webkit-keyframes pie7 {
+  50%,100% {stroke-dasharray: 80,20,0,0;}
+}
+@keyframes pie7 {
+  50%,100% {stroke-dasharray: 80,20,0,0;}
+}
+
+/*fin compétences*/
+
+
+
+
+
+
+/*début formulaire*/
+
+#contact{
+width: 100%;
+height: 100%;
+background-color: #094f5d;
+}
+
+
+#contacttitre{
+	width: 100%;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 50px;
+	font-family: 'Opificio Neue';
+	color: #edede5;
+	font-size: 48px;
+}
+
+#contactphrase{
+width: 100%;
+text-align: center;
+font-family: 'Opificio Neue';
+font-size: 20px;
+color: #edede5;
+margin-top: 4%;
+}
+
+.main{
+margin-top: -70px;
+}
+
+.maingrille{
+margin-top: 7%;
+}
+
+/*fin formulaire*/
+
+/*début réseaux*/
+
+#reseauxdiv{
+width: 100%;
+height: 100%;
+background-color: #edede5;
+}
+
+#réseauxtitre{
+	width: 100%;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 35px;
+	padding-bottom: 100px;
+	font-family: 'Opificio Neue';
+	font-size: 50px;
+	color: #094f5d;
+}
+
+#telephone{
+width: 20%;
+height: 20%;
+float: left;
+background-image:url(../img/img/phone_bleu.png);
+background-repeat:no-repeat;
+background-position: center top;
+background-size: 40%;
+}
+
+#mail{
+width: 20%;
+height: 20%;
+float: left;
+background-image:url(../img/img/mail_bleu.png);
+background-repeat:no-repeat;
+background-position: center top;
+background-size: 40%;
+}
+
+#facebook{
+width: 20%;
+height: 20%;
+float: left;
+background-image:url(../img/img/facebook_bleu.png);
+background-repeat:no-repeat;
+background-position: center top;
+background-size: 40%;
+}
+
+#pinterest{
+width: 20%;
+height: 20%;
+float: left;
+background-image:url(../img/img/pinterest_bleu.png);
+background-repeat:no-repeat;
+background-position: center top;
+background-size: 40%;
+}
+
+#instagram{
+width: 20%;
+height: 20%;
+float: left;
+background-image:url(../img/img/instagram_bleu.png);
+background-repeat:no-repeat;
+background-position: center top;
+background-size: 40%;
+}
+
+#telephone p{
+width: 100%;
+font-family: 'Opificio Neue';
+font-size: 20px;
+text-align: center;
+padding-top: 50%;
+color: #094f5d;
+}
+
+#mail p{
+width: 100%;
+font-family: 'Opificio Neue';
+font-size: 20px;
+text-align: center;
+padding-top: 50%;
+color: #094f5d;
+}
+
+#facebook p{
+text-decoration:none;
+width: 100%;
+font-family: 'Opificio Neue';
+font-size: 20px;
+text-align: center;
+padding-top: 50%;
+color: #094f5d;
+}
+
+#pinterest p{
+text-decoration:none;
+width: 100%;
+font-family: 'Opificio Neue';
+font-size: 20px;
+text-align: center;
+padding-top: 50%;
+color: #094f5d;
+}
+
+#instagram p{
+text-decoration:none;
+width: 100%;
+font-family: 'Opificio Neue';
+font-size: 20px;
+text-align: center;
+padding-top: 50%;
+color: #094f5d;
+}
+
+
+/*fin réseaux*/
+
+/*début à propos*/
+
+#a_propos{
+width: 100%;
+height: 100%;
+background-color: #edede5;
+}
+
+#a_propos h1{
+	width: 100%;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 35px;
+	padding-bottom: 100px;
+	font-family: 'Opificio Neue';
+	font-size: 50px;
+	color: #094f5d;
+}
+
+#titre-acceuil{
+width: 50%;
+height:100%; 
+float: left;
+}
+#divcv{
+width: 50%;
+height:100%; 
+float: left;
+}
+
+#nom{
+font-size: 31px;
+width: 70%;
+text-align: center;
+color: #094f5d;
+font-family: 'Opificio Neue';
+margin: auto;
+}
+
+#appel{
+font-size: 26px;
+width: 70%;
+text-align: center;
+padding-top: 10%;
+color: #094f5d;
+font-family: 'Opificio Neue';
+margin:auto;
+}
+
+#compétences{
+font-size: 22px;
+width: 70%;
+text-align: center;
+padding-top: 4%;
+color: #094f5d;
+font-family: 'Opificio Neue';
+margin: auto;
+}
+
+#origine{
+font-size: 20px;
+width: 70%;
+text-align: center;
+padding-top: 4%;
+color: #094f5d;
+font-family: 'Opificio Neue';
+margin:auto;
+}
+
+#cvmot{
+font-size: 35px;
+height: 90px;
+line-height: 90px;
+}
+
+
+#cv{
+	font-family: 'Opificio Neue';
+	color: #094f5d;
+	width: 300px;
+	height: 90px;
+	font-size: 40px;
+	border: 1px solid #094f5d;
+	margin: auto;
+}
+
+#cv:hover{
+	border: 1px solid #900e1c;
+	-webkit-transition: border 500ms ease-out;  /* For Safari 3.1 to 6.0 */
+	transition: border 150ms ease-out;
+}
+
+#formation{
+font-size: 20px;
+width: 70%;
+text-align: center;
+padding-top: 15%;
+padding-bottom: 6%;
+color: #094f5d;
+font-family: 'Opificio Neue';
+margin:auto;
+}
+
+
+/*fin à propos*/
+
+
+
+

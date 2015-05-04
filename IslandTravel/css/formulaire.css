@@ -1,0 +1,248 @@
+div#contenuformulaire {
+	width: 100%;
+	background:url("../images/orange.png");
+	max-width:2200px;
+	margin:auto;
+}
+p{
+height:32px;
+}
+
+button.submit a {
+	text-decoration:none;
+	color: #D35400;
+	}
+
+
+fieldset{
+border:none;
+background:rgba(250,250,250,0.6);
+box-shadow:2px 2px 3px black;
+}
+
+.formulaire {
+	width: 930px;
+	margin: 0px auto;
+}
+
+form.formulaire p>label {
+	width: 100px;
+	display: inline-block;
+	margin-bottom:25px;
+}
+
+form.formulaire p>label:first-child {
+	width: 250px;
+	float : left;
+}
+
+button.submit {
+	margin-left: 760px;
+	background-color: transparent;
+	border-radius: 10px;
+	border: 2px solid #D35400;
+	padding: 10px 30px 10px 30px;
+	font-family: 'Open Sans', sans-serif;
+	color: #D35400;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+a:link { 
+ text-decoration:none; 
+} 
+
+form.formulaire label.error{
+	width: 350px;
+	background-image: url("../images/unchecked2.png");
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+	color: #ff2019;
+	font-weight: bold;
+	padding-bottom: 2px;
+	padding-left: 36px;
+	margin-left: 15px;
+	vertical-align: center;
+	height: 30px;
+	font-size: 15px;
+}
+
+form.formulaire label.checked {
+	padding-left: 36px;
+	margin-left: 12px;
+	background-image: url("../images/checked3.png");
+	background-size: 20px 20px;
+	color : #58cf1c;
+	height: 30px;
+	font-size: 15px;
+}
+
+#titre{
+	width: 500px;
+	height: 50px;
+	margin: auto;
+	padding-top: 0px;
+	margin-bottom: 35px;
+	color: #141414;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	border-bottom:solid 2px #252525;
+	text-shadow:1px 1px 2px white;
+}
+
+label {
+font-family: 'Open Sans', sans-serif;
+font-weight: bold;
+color: #D35400;
+}
+
+.ui-multiselect{
+color: red;
+}
+
+a.tips {
+	text-decoration: none;
+	color: #D35400;
+	
+}
+
+/*
+Ajout pour etape 3
+*/
+form.formulaire p {
+	clear : both;	
+}
+
+/* tooltip styling. by default the element to be styled is .tooltip  */
+.tooltip {
+	background-color:#000;
+	border:1px solid #fff;
+	border:1px solid #fff;
+	padding:10px 15px;
+	width:200px;
+	display:none;
+	text-align:left;
+	font-size:12px;
+	
+	/* outline radius for mozilla/firefox only */
+	-moz-box-shadow:0 0 10px #000;
+	-webkit-box-shadow:0 0 10px #000;
+}
+
+.center{
+color:black;
+}
+
+
+@media screen and (max-width: 72em) {
+.formulaire {
+	width: 550px;
+	margin: 0px auto;
+}
+
+form.formulaire p>label {
+	width: 50px;
+	display: inline-block;
+	font-size: 11px;
+}
+
+
+form.formulaire p>label:first-child {
+	width: 125px;
+	float : left;
+}
+
+button.submit {
+	margin-left: 380px;
+	background-color: transparent;
+	border-radius: 5px;
+	border: 1px solid #D35400;
+	padding: 10px 30px 10px 30px;
+	font-family: 'Open Sans', sans-serif;
+	color: #D35400;
+	font-weight: bolder;
+	font-size: 20px;
+	
+}
+
+a:link { 
+ text-decoration:none; 
+} 
+
+form.formulaire label.error{
+	width: 175px;
+	background-image: url("../images/unchecked2.png");
+	background-repeat: no-repeat;
+	background-size: 9px 9px;
+	color: #ff2019;
+	font-weight: bold;
+	padding-bottom: 1px;
+	padding-left: 18px;
+	margin-left: 7px;
+	vertical-align: center;
+	height: 15px;
+	font-size: 12px;
+}
+
+form.formulaire label.checked {
+	padding-left: 18px;
+	margin-left: 6px;
+	background-image: url("../images/checked3.png");
+	background-size: 12px 12px;
+	color : #58cf1c;
+	height: 15px;
+	font-size: 12px;
+}
+
+#titre{
+	width: 450px;
+	height: 48px;
+	margin: auto;
+	padding-top: 10px;
+	margin-bottom: 30px;
+	color: #D35400;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: 'Lobster', cursive;
+	border-bottom:solid 2px #252525;
+}
+
+label {
+font-family: 'Open Sans', sans-serif;
+color: #D35400;
+}
+
+.ui-multiselect{
+color: red;
+}
+
+a.tips {
+	text-decoration: none;
+	color: #D35400;
+}
+
+/*
+Ajout pour etape 3
+*/
+form.formulaire p {
+	clear : both;	
+}
+
+/* tooltip styling. by default the element to be styled is .tooltip  */
+.tooltip {
+	background-color:#000;
+	border:1px solid #fff;
+	padding:10px 15px;
+	width:200px;
+	display:none;
+	color:#fff;
+	text-align:left;
+	font-size:12px;
+	
+	/* outline radius for mozilla/firefox only */
+	-moz-box-shadow:0 0 10px #000;
+	-webkit-box-shadow:0 0 10px #000;
+}
+}
